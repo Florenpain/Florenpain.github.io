@@ -5,34 +5,57 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Florentin BUGNON — CV</title>
   <meta name="description" content="CV de Florentin Bugnon — Développeur Full-Stack" />
-
-  <!-- Import du CSS externe -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style/index.css" />
+  <link rel="stylesheet" href="style/header.css" />
+  <link rel="stylesheet" href="style/experiences.css" />
+  <link rel="stylesheet" href="style/formations.css" />
+  <link rel="stylesheet" href="style/aside.css" />
+  <link rel="stylesheet" href="style/impression.css" />
+  <script src="script/experiences.js" defer></script>
+  <script src="script/formations.js" defer></script>
 </head>
 <body>
   <div class="container">
     <div class="card">
       <header class="header">
         <div class="avatar" aria-hidden="true">FB</div>
-        <div>
+        <div class="general-informations">
           <h1>Florentin BUGNON</h1>
-          <p class="lead">Développeur Full-Stack</p>
-          <p class="meta">Lille / Calais</p>
-          <p class="meta contact">
-            ✉️ <a href="mailto:bugnonflorentin@gmail.com">bugnonflorentin@gmail.com</a> &nbsp; • &nbsp;
-            📞 <a href="tel:+33679609573">06.79.60.95.73</a>
-            <br>
-            LinkedIn: <a href="https://www.linkedin.com/in/florentinbugnon/" target="_blank" rel="noopener">linkedin.com/in/florentinbugnon/</a>
+          <h2 id="job-title">Développeur Full-Stack</p>
+          <h2 id="localisation">Lille &nbsp; • &nbsp; Calais</p>
+          <h2 class="meta contact">
+            <a href="mailto:florentin.bugnon@outlook.fr" target="_blank" rel="noopener" aria-label="Envoyer un email à florentin.bugnon@outlook.fr">
+                <!-- Logo mail SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#D44638" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+            </a>
             &nbsp; • &nbsp;
-            GitHub: <a href="https://github.com/Florenpain" target="_blank" rel="noopener">github.com/Florenpain</a>
-          </p>
+            <a href="https://www.linkedin.com/in/florentinbugnon/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <!-- Logo LinkedIn SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#0A66C2" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.7v2.2h.1c.7-1.3 2.4-2.7 4.9-2.7 5.2 0 6.1 3.4 6.1 7.8V24h-5v-7c0-1.7 0-3.8-2.3-3.8-2.3 0-2.7 1.8-2.7 3.7V24h-5V8z"/>
+                </svg>
+            </a>
+            &nbsp; • &nbsp;
+            <a href="https://github.com/Florenpain" target="_blank" rel="noopener" aria-label="GitHub">
+                <!-- Logo GitHub SVG -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.73.083-.73 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.76-1.605-2.665-.3-5.467-1.335-5.467-5.932 0-1.31.467-2.382 1.236-3.222-.123-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.52 11.52 0 013.003-.403c1.02.004 2.045.138 3.003.404 2.29-1.553 3.296-1.23 3.296-1.23.655 1.653.242 2.873.12 3.176.77.84 1.235 1.912 1.235 3.222 0 4.61-2.807 5.628-5.48 5.922.43.37.815 1.103.815 2.222 0 1.604-.015 2.896-.015 3.286 0 .32.216.694.825.576C20.565 21.795 24 17.297 24 12c0-6.627-5.373-12-12-12z"/>
+                </svg>
+            </a>
+        </h2>
+        </div>
+        <aside class="download-section">
+            <a class="download" href="cv.pdf" download>Télécharger le CV (PDF)</a>
+            <a class="download print-btn" href="#" onclick="window.print()">Afficher en PDF</a>
+        </aside>
         </div>
       </header>
 
       <div class="grid">
-        <!-- Colonne gauche -->
         <main>
-          <section class="section">
+          <section id="profil">
             <h2>Profil</h2>
             <p>
               Développeur Full-Stack motivé, expérience en TypeScript/Node.js, Java/J2EE et administration de bases de données.
@@ -40,54 +63,78 @@
             </p>
           </section>
 
-          <section class="section">
-            <h2>Expérience</h2>
-
-            <div class="job">
-              <strong>Analyste Programmeur Informatique — KPF-SI</strong>
-              <div class="dates">Octobre 2023 — présent (CDI)</div>
-              <ul>
-                <li>Centre de services : analyse et résolution de tickets N1/N2 (AIX / Windows).</li>
-                <li>Technos : Java / J2EE, SQL / Oracle. Outils : Putty, OTRS, Jira, Confluence, iceScrum, PowerBI.</li>
-                <li>Maintenance et évolutions d’applications industrielles (clients : Vallourec & Framatome).</li>
-              </ul>
+          <section id="experience">
+            <div class="header-experience">
+                <h2 >Expérience professionnelle</h2>
+                <div class="nav-buttons">
+                  <button id="previousExperience" aria-label="Expérience précédente">&lt;</button>
+                  <button id="nextExperience" aria-label="Expérience suivante">&gt;</button>
+                </div>
             </div>
 
-            <div class="job">
-              <strong>Développeur TypeScript — Tabuleo</strong>
-              <div class="dates">Avril 2022 — Septembre 2022 (Stage)</div>
-              <ul>
-                <li>Stack : TypeScript, NodeJS, ReactJS, NestJS, Fastify, Sequelize, TailwindCSS, MongoDB.</li>
-                <li>Travail sur un système de notation pour une application de cours en ligne et amélioration de l'IHM d'un outil interne.</li>
-                <li>Outils : Jira, Slack, Postman, Axios.</li>
-              </ul>
+            <div class="experiences-container">
+                <div class="experiences active">
+                <strong>Analyste Programmeur Informatique</strong>
+                <p class="employeurs">KPF-SI - Lille</p>
+                <p class="contrats">CDI</p>
+                <p class="dates">Octobre 2023 — Aujourd'hui</p>
+                <p class="Compétences">Java, J2EE, SQL, Oracle, Putty, OTRS, Jira, Confluence, iceScrum, PowerBI</p>
+                <p class="descriptions">Centre de services : analyse et résolution de tickets N1/N2 (AIX / Windows).
+                    Maintenance et évolutions d’applications industrielles (clients : Vallourec & Framatome).
+                </p>
+                </div>
+
+                <div class="experiences">
+                <strong>Développeur TypeScript</strong>
+                <p class="employeurs">Tabuleo - Lille</p>
+                <p class="contrats">Stage</p>
+                <p class="dates">Avril 2022 — Septembre 2022</p>
+                <p class="Compétences">TypeScript, NodeJS, ReactJS, NestJS, Fastify, Sequelize, TailwindCSS, MongoDB</p>
+                <p class="descriptions">Travail sur un système de notation pour une application de cours en ligne et amélioration de l'IHM d'un outil interne.</p>
+                </div>
             </div>
+
           </section>
 
-          <section class="section">
-            <h2>Formation</h2>
-            <ul>
-              <li><strong>Master 1 Informatique — E-services</strong>, Université de Lille — 2022-2023</li>
-              <li><strong>Licence Informatique</strong>, Université de Lille — 2019-2022</li>
-              <li><strong>Licence STAPS</strong>, Université du Littoral Côte d’Opale — 2018-2019</li>
-              <li><strong>Baccalauréat Scientifique (Spé Maths)</strong>, Lycée Sophie Berthelot, Calais — 2018</li>
-            </ul>
-          </section>
+          <section id="formation">
+            <div class="header-formation">
+                <h2>Formation</h2>
+                <div class="nav-buttons">
+                  <button id="previousFormation" aria-label="Formation précédente">&lt;</button>
+                  <button id="nextFormation" aria-label="Formation suivante">&gt;</button>
+                </div>
+            </div>
 
-          <section class="section">
-            <h2>Langues</h2>
-            <ul>
-              <li>Français — courant</li>
-              <li>Anglais — B2/C1</li>
-            </ul>
-          </section>
+            <div class="formation-container">
+                <div class="formation active">
+                <strong>Master 1 Informatique — E-services</strong>
+                <p class="employeurs">Université de Lille</p>
+                <p class="dates">2022-2023</p>
+                </div>
+                <div class="formation">
+                <strong>Licence Informatique</strong>
+                <p class="employeurs">Université de Lille</p>
+                <p class="dates">2019-2022</p>
+                </div>
+                <div class="formation">
+                <strong>Licence STAPS</strong>
+                <p class="employeurs">Université du Littoral Côte d’Opale</p>
+                <p class="dates">2018-2019</p>
+                </div>
+                <div class="formation">
+                <strong>Baccalauréat Scientifique (Spé Maths)</strong>
+                <p class="employeurs">Lycée Sophie Berthelot, Calais</p>
+                <p class="dates">2018</p>
+                </div>
+            </div>
+            </section>
         </main>
 
         <!-- Colonne droite -->
         <aside>
           <div class="right-card">
             <h2>Compétences techniques</h2>
-            <div class="skill-list">
+            <div class="skills">
               <span class="chip">HTML</span>
               <span class="chip">CSS</span>
               <span class="chip">Tailwind</span>
@@ -106,18 +153,24 @@
             </div>
 
             <h2>Centres d'intérêt</h2>
-            <p class="meta">Sport · Cinéma · Lecture · Voyage · Randonnées · Ski</p>
+            <div class="interests">
+              <span class="chip">Sport</span>
+              <span class="chip">Cinéma</span>
+              <span class="chip">Lecture</span>
+              <span class="chip">Voyage</span>
+              <span class="chip">Randonnées</span>
+              <span class="chip">Ski</span>
+            </div>
 
-            <h2>Télécharger</h2>
-            <a class="download" href="cv.pdf" download>Télécharger le CV (PDF)</a>
-            <a class="download print-btn" href="#" onclick="window.print()">📄 Télécharger en PDF</a>
+            <h2>Langues</h2>
+            <div class="langues">
+              <span class="chip">Français</span>
+              <span class="chip">Anglais (B2/C1)</span>
+            </div>
           </div>
         </aside>
       </div>
 
-      <footer>
-        <small>Contenu importé depuis le CV fourni.</small>
-      </footer>
     </div>
   </div>
 </body>

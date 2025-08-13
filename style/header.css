@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  align-items: flex-start;      
+  justify-content: space-between; /* espace entre avatar+infos et download */
+  gap: 20px;
+  flex-wrap: wrap;          /* pour gérer petits écrans */
+}
+
+.general-informations {
+  flex: 1 1 auto;
+}
+
+.download-section {
+  display: flex;
+  flex-direction: column;  /* empile les boutons verticalement */
+  align-items: flex-start;   /* aligne à droite */
+  gap: 10px;               /* espace entre boutons */
+  flex-shrink: 0;          /* ne pas rétrécir */
+}
+
+.download {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 18px;
+  border-radius: 6px;
+  background: var(--accent, #28a745);
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+}
+
+
+.download:hover {
+  background-color: #1e7e34;
+}
+
+.print-btn{
+  background:#334155;
+}
+
+.avatar{
+  width:180px;
+  height:180px;
+  border-radius:12px;
+  background:linear-gradient(135deg,var(--accent),#2dd4bf);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  font-weight:700;
+  font-size:22px;
+}
+
+.contact a{color:var(--accent);text-decoration:none;}

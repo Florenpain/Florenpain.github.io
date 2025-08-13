@@ -1,0 +1,50 @@
+/* Affichage 1 seul élément */
+.formation-container {
+  position: relative;
+}
+
+.header-formation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.formation {
+  background-color: #e6f2e9;      /* fond vert très clair */
+  border-left: 6px solid #28a745; /* barre verte à gauche */
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(40, 167, 69, 0.15);
+  transition: box-shadow 0.3s ease;
+  display: none;
+}
+
+.formation.active {
+  display: block;
+}
+
+.formation:hover {
+  box-shadow: 0 6px 12px rgba(40, 167, 69, 0.3);
+}
+
+.formation strong {
+  display: block;
+  font-size: 1.2rem;
+  color: #19692c;
+  margin-bottom: 8px;
+}
+
+.formation .employeur {
+  color: #4a754a;
+  font-weight: 600;
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+
+.formation .dates {
+  color: #2d6b2d;
+  font-size: 0.9rem;
+  font-style: italic;
+}
