@@ -18,12 +18,11 @@
   <div class="container">
     <div class="card">
       <header class="header">
-        <div class="avatar" aria-hidden="true">FB</div>
         <div class="general-informations">
           <h1>Florentin BUGNON</h1>
-          <h2 id="job-title">Développeur Full-Stack</p>
-          <h2 id="localisation">Lille &nbsp; • &nbsp; Calais</p>
-          <h2 class="meta contact">
+          <h3 id="job-title">Développeur Full-Stack</h3>
+          <h3 id="localisation">Lille &nbsp; • &nbsp; Calais</h3>
+          <div class="meta contact">
             <a href="mailto:florentin.bugnon@outlook.fr" target="_blank" rel="noopener" aria-label="Envoyer un email à florentin.bugnon@outlook.fr">
                 <!-- Logo mail SVG -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#D44638" viewBox="0 0 24 24" aria-hidden="true">
@@ -44,10 +43,10 @@
                     <path d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.73.083-.73 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.76-1.605-2.665-.3-5.467-1.335-5.467-5.932 0-1.31.467-2.382 1.236-3.222-.123-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.52 11.52 0 013.003-.403c1.02.004 2.045.138 3.003.404 2.29-1.553 3.296-1.23 3.296-1.23.655 1.653.242 2.873.12 3.176.77.84 1.235 1.912 1.235 3.222 0 4.61-2.807 5.628-5.48 5.922.43.37.815 1.103.815 2.222 0 1.604-.015 2.896-.015 3.286 0 .32.216.694.825.576C20.565 21.795 24 17.297 24 12c0-6.627-5.373-12-12-12z"/>
                 </svg>
             </a>
-        </h2>
+          </div>
         </div>
         <aside class="download-section">
-            <a class="download" href="cv.pdf" download>Télécharger le CV (PDF)</a>
+            <a class="download" href="documents/CV.pdf" download>Télécharger le CV (PDF)</a>
             <a class="download print-btn" href="#" onclick="window.print()">Afficher en PDF</a>
         </aside>
         </div>
@@ -58,8 +57,14 @@
           <section id="profil">
             <h2>Profil</h2>
             <p>
-              Développeur Full-Stack motivé, expérience en TypeScript/Node.js, Java/J2EE et administration de bases de données.
-              Habitué aux environnements Agile/Scrum, au support N1/N2 et au développement & maintenance d'applications industrielles et web.
+              <strong>Développeur Full-Stack</strong> passionné par la conception et la maintenance d’applications web et industrielles,
+              avec une expertise en <strong>TypeScript/Node.js</strong>, <strong>Java/J2EE</strong> et en gestion de bases de données
+              (<strong>Oracle</strong>, <strong>MongoDB</strong>, <strong>MySQL</strong>).
+              Habitué aux environnements <strong>Agile/Scrum</strong>, je maîtrise le développement front-end et back-end,
+              l’optimisation d’interfaces, ainsi que le support technique <strong>N1/N2</strong>.
+              Polyvalent, curieux et orienté solution, je m’engage à fournir un code propre, performant et maintenable.
+              Ouvert aux projets innovants et aux défis techniques, je souhaite mettre mes compétences au service d’équipes dynamiques
+              pour créer des solutions à forte valeur ajoutée.
             </p>
           </section>
 
@@ -130,44 +135,53 @@
             </section>
         </main>
 
-        <!-- Colonne droite -->
-        <aside>
-          <div class="right-card">
-            <h2>Compétences techniques</h2>
-            <div class="skills">
-              <span class="chip">HTML</span>
-              <span class="chip">CSS</span>
-              <span class="chip">Tailwind</span>
-              <span class="chip">JavaScript</span>
-              <span class="chip">TypeScript</span>
-              <span class="chip">NodeJS</span>
-              <span class="chip">React</span>
-              <span class="chip">NestJS</span>
-              <span class="chip">Java / J2EE</span>
-              <span class="chip">Python / FastAPI</span>
-              <span class="chip">MongoDB</span>
-              <span class="chip">MySQL</span>
-              <span class="chip">Oracle</span>
-              <span class="chip">Git / GitHub / GitLab</span>
-              <span class="chip">Windows / Linux</span>
+        <aside id="right-card">
+            <div id="skills">
+              <h2>Compétences techniques</h2>
+              <div id="skills-list" class="items-list">
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+                <span class="chip">Tailwind</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">TypeScript</span>
+                <span class="chip">NodeJS</span>
+                <span class="chip">ReactJS</span>
+                <span class="chip">NestJS</span>
+                <span class="chip">Java</span>
+                <span class="chip">J2EE</span>
+                <span class="chip">Python</span>
+                <span class="chip">FastAPI</span>
+                <span class="chip">MongoDB</span>
+                <span class="chip">MySQL</span>
+                <span class="chip">Oracle</span>
+                <span class="chip">Git</span>
+                <span class="chip">GitHub</span>
+                <span class="chip">GitLab</span>
+                <span class="chip">Docker</span>
+                <span class="chip">Linux</span>
+                <span class="chip">Windows</span>
+              </div>
             </div>
 
-            <h2>Centres d'intérêt</h2>
-            <div class="interests">
-              <span class="chip">Sport</span>
-              <span class="chip">Cinéma</span>
-              <span class="chip">Lecture</span>
-              <span class="chip">Voyage</span>
-              <span class="chip">Randonnées</span>
-              <span class="chip">Ski</span>
+            <div id="interests-">
+              <h2>Centres d'intérêt</h2>
+              <div id="interests-list" class="items-list">
+                <span class="chip">Sport</span>
+                <span class="chip">Cinéma</span>
+                <span class="chip">Lecture</span>
+                <span class="chip">Voyage</span>
+                <span class="chip">Randonnées</span>
+                <span class="chip">Ski</span>
+              </div>
             </div>
-
-            <h2>Langues</h2>
-            <div class="langues">
-              <span class="chip">Français</span>
-              <span class="chip">Anglais (B2/C1)</span>
+            
+            <div id="langues">
+              <h2>Langues</h2>
+              <div id="langues-list" class="items-list">
+                <span class="chip">Français</span>
+                <span class="chip">Anglais (B2/C1)</span>
+              </div>
             </div>
-          </div>
         </aside>
       </div>
 
