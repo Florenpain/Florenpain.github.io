@@ -1,0 +1,56 @@
+.header-experience {
+  display:flex; 
+  align-items:center; 
+  justify-content:space-between; 
+  margin-bottom: 5px;
+}
+
+.experiences {
+  background-color: #f0f9f4;       /* fond très clair vert pastel */
+  border: 2px solid #28a745;       /* bordure vert vif */
+  border-radius: 10px;             /* coins arrondis */
+  padding: 20px 25px;              /* espace intérieur */
+  margin-bottom: 20px;             /* espacement entre jobs */
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.2); /* ombre légère verte */
+  transition: box-shadow 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: none;
+}
+
+.experiences.active {
+    display: block;
+  }
+
+.experiences:hover {
+  box-shadow: 0 8px 16px rgba(40, 167, 69, 0.4); /* ombre plus intense au hover */
+}
+
+.experiences strong {
+  display: block;
+  font-size: 1.3rem;
+  color: #19692c; /* vert foncé */
+  margin-bottom: 8px;
+}
+
+.experiences .employeurs, 
+.experiences .contrats, 
+.experiences .dates {
+  color: #4a754a; /* vert moyen */
+  font-weight: 600;
+  margin: 3px 0;
+  font-size: 0.95rem;
+}
+
+.experiences .Compétences {
+  font-style: italic;
+  color: #2d6b2d;
+  margin: 12px 0;
+  font-size: 0.9rem;
+}
+
+.experiences .descriptions {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  margin-top: 10px;
+}

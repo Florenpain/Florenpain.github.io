@@ -1,0 +1,18 @@
+[
+  {
+    "titre": "Analyste Programmeur Informatique",
+    "employeur": "KPF-SI - Lille",
+    "contrat": "CDI",
+    "dates": "Octobre 2023 — Aujourd'hui",
+    "competences": ["Java", "J2EE", "SQL", "Oracle", "Putty", "OTRS", "Jira", "Confluence", "iceScrum", "PowerBI"],
+    "description": "Centre de services : analyse et résolution de tickets N1/N2 (AIX / Windows). Maintenance et évolutions d’applications industrielles (clients : Vallourec & Framatome)."
+  },
+  {
+    "titre": "Développeur TypeScript",
+    "employeur": "Tabuleo - Lille",
+    "contrat": "Stage",
+    "dates": "Avril 2022 — Septembre 2022",
+    "competences": ["TypeScript", "NodeJS", "ReactJS", "NestJS", "Fastify", "Sequelize", "TailwindCSS", "MongoDB"],
+    "description": "Travail sur un système de notation pour une application de cours en ligne et amélioration de l'IHM d'un outil interne."
+  }
+]
