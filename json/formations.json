@@ -2,21 +2,37 @@
   {
     "intitule": "Master 1 Informatique — E-services",
     "etablissement": "Université de Lille",
+    "lieu": "Lille",
     "dates": "2022-2023"
   },
   {
     "intitule": "Licence Informatique",
     "etablissement": "Université de Lille",
+    "lieu": "Lille",
     "dates": "2019-2022"
   },
   {
     "intitule": "Licence STAPS",
     "etablissement": "Université du Littoral Côte d’Opale",
+    "lieu": "Calais",
     "dates": "2018-2019"
   },
   {
     "intitule": "Baccalauréat Scientifique (Spé Maths)",
-    "etablissement": "Lycée Sophie Berthelot, Calais",
+    "etablissement": "Lycée Sophie Berthelot",
+    "lieu": "Calais",
     "dates": "2018"
+  },
+  {
+    "intitule": "Brevet d'aptitude aux fonctions d'animateur (BAFA)",
+    "etablissement": "Ligue de l'enseignement",
+    "lieu": "Calais",
+    "dates": "2017"
+  },
+  {
+    "intitule": "Brevet des Collèges",
+    "etablissement": "Collège Jean Monnet",
+    "lieu": "Calais",
+    "dates": "2015"
   }
 ]

@@ -1,7 +1,8 @@
 [
   {
     "titre": "Analyste Programmeur Informatique",
-    "employeur": "KPF-SI - Lille",
+    "employeur": "KPF-SI",
+    "lieu": "Lille",
     "contrat": "CDI",
     "dates": "Octobre 2023 — Aujourd'hui",
     "competences": ["Java", "J2EE", "SQL", "Oracle", "Putty", "OTRS", "Jira", "Confluence", "iceScrum", "PowerBI"],
@@ -9,10 +10,38 @@
   },
   {
     "titre": "Développeur TypeScript",
-    "employeur": "Tabuleo - Lille",
+    "employeur": "Tabuleo",
+    "lieu": "Lille",
     "contrat": "Stage",
     "dates": "Avril 2022 — Septembre 2022",
     "competences": ["TypeScript", "NodeJS", "ReactJS", "NestJS", "Fastify", "Sequelize", "TailwindCSS", "MongoDB"],
     "description": "Travail sur un système de notation pour une application de cours en ligne et amélioration de l'IHM d'un outil interne."
+  },
+  {
+    "titre": "Préparateur de commandes",
+    "employeur": "Chronodrive",
+    "lieu": "Lille",
+    "contrat": "CDI temps partiel",
+    "dates": "Septembre 2020 - Août 2021",
+    "competences": ["Logistique", "Préparation de commandes", "Gestion des stocks"],
+    "description": "Préparation de commandes pour un supermarché en ligne."
+  },
+  {
+    "titre": "Vendeur en prêt-à-porter",
+    "employeur": "Calvin Klein",
+    "lieu": "Calais",
+    "contrat": "CDI temps partiel",
+    "dates": "Septembre 2018 - Août 2019",
+    "competences": ["Vente", "Service client", "Gestion des stocks"],
+    "description": "Vente de vêtements et accessoires, gestion des stocks et service client dans un magasin de prêt-à-porter."
+  },
+  {
+    "titre": "Animateur centre de loisirs",
+    "employeur": "Grand Calais Terres & Mers",
+    "lieu": "Calais",
+    "contrat": "CDD",
+    "dates": "Juillet 2018 - Août 2018",
+    "competences": ["Animation", "Gestion de groupe", "Organisation d'activités"],
+    "description": "Animation d'enfants dans un centre de loisirs, organisation d'activités ludiques et éducatives."
   }
 ]

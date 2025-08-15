@@ -15,12 +15,30 @@
 
 #right-card{
   background:#fbfdff;
-  border-radius:10px;
+  border-radius:12px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
-
 
 .items-list {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  justify-content: center;
+}
+
+aside div {
+  margin: 0 auto 14px auto;
+  padding: 0 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+aside h2 {
+  color: #2e7d32; /* vert foncé */
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #28a745; /* souligné vert vif */
+  padding-bottom: 6px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }

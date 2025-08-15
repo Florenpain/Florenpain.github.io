@@ -32,7 +32,8 @@
   margin-bottom: 8px;
 }
 
-.experiences .employeurs, 
+.experiences .employeurs,
+.experiences .lieux,
 .experiences .contrats, 
 .experiences .dates {
   color: #4a754a; /* vert moyen */
