@@ -6,4 +6,4 @@ Ce dépôt contient les fichiers sources d'un site web présentant mon CV
 ![alt text](documents/image.png)
 
 # TODO List
-- Rendu dynamique des expériences et formations avec un script js se basant sur les données d'un fichier .json
+- Rendu responsive pour que ce soit accessible aussi depuis mobile
