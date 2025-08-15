@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="style/impression.css" />
   <script src="script/experiences.js" defer></script>
   <script src="script/formations.js" defer></script>
+  <script src="script/aside.js" defer></script>
 </head>
 <body>
   <div class="container">
@@ -76,29 +77,7 @@
                   <button id="nextExperience" aria-label="Expérience suivante">&gt;</button>
                 </div>
             </div>
-
-            <div class="experiences-container">
-                <div class="experiences active">
-                <strong>Analyste Programmeur Informatique</strong>
-                <p class="employeurs">KPF-SI - Lille</p>
-                <p class="contrats">CDI</p>
-                <p class="dates">Octobre 2023 — Aujourd'hui</p>
-                <p class="Compétences">Java, J2EE, SQL, Oracle, Putty, OTRS, Jira, Confluence, iceScrum, PowerBI</p>
-                <p class="descriptions">Centre de services : analyse et résolution de tickets N1/N2 (AIX / Windows).
-                    Maintenance et évolutions d’applications industrielles (clients : Vallourec & Framatome).
-                </p>
-                </div>
-
-                <div class="experiences">
-                <strong>Développeur TypeScript</strong>
-                <p class="employeurs">Tabuleo - Lille</p>
-                <p class="contrats">Stage</p>
-                <p class="dates">Avril 2022 — Septembre 2022</p>
-                <p class="Compétences">TypeScript, NodeJS, ReactJS, NestJS, Fastify, Sequelize, TailwindCSS, MongoDB</p>
-                <p class="descriptions">Travail sur un système de notation pour une application de cours en ligne et amélioration de l'IHM d'un outil interne.</p>
-                </div>
-            </div>
-
+            <div class="experiences-container"></div>
           </section>
 
           <section id="formation">
@@ -109,79 +88,25 @@
                   <button id="nextFormation" aria-label="Formation suivante">&gt;</button>
                 </div>
             </div>
-
-            <div class="formation-container">
-                <div class="formation active">
-                <strong>Master 1 Informatique — E-services</strong>
-                <p class="employeurs">Université de Lille</p>
-                <p class="dates">2022-2023</p>
-                </div>
-                <div class="formation">
-                <strong>Licence Informatique</strong>
-                <p class="employeurs">Université de Lille</p>
-                <p class="dates">2019-2022</p>
-                </div>
-                <div class="formation">
-                <strong>Licence STAPS</strong>
-                <p class="employeurs">Université du Littoral Côte d’Opale</p>
-                <p class="dates">2018-2019</p>
-                </div>
-                <div class="formation">
-                <strong>Baccalauréat Scientifique (Spé Maths)</strong>
-                <p class="employeurs">Lycée Sophie Berthelot, Calais</p>
-                <p class="dates">2018</p>
-                </div>
-            </div>
+            <div class="formations-container"></div>
             </section>
         </main>
 
         <aside id="right-card">
-            <div id="skills">
-              <h2>Compétences techniques</h2>
-              <div id="skills-list" class="items-list">
-                <span class="chip">HTML</span>
-                <span class="chip">CSS</span>
-                <span class="chip">Tailwind</span>
-                <span class="chip">JavaScript</span>
-                <span class="chip">TypeScript</span>
-                <span class="chip">NodeJS</span>
-                <span class="chip">ReactJS</span>
-                <span class="chip">NestJS</span>
-                <span class="chip">Java</span>
-                <span class="chip">J2EE</span>
-                <span class="chip">Python</span>
-                <span class="chip">FastAPI</span>
-                <span class="chip">MongoDB</span>
-                <span class="chip">MySQL</span>
-                <span class="chip">Oracle</span>
-                <span class="chip">Git</span>
-                <span class="chip">GitHub</span>
-                <span class="chip">GitLab</span>
-                <span class="chip">Docker</span>
-                <span class="chip">Linux</span>
-                <span class="chip">Windows</span>
-              </div>
-            </div>
+          <div id="skills">
+            <h2>Compétences techniques</h2>
+            <div id="skills-list" class="items-list"></div>
+          </div>
 
-            <div id="interests-">
-              <h2>Centres d'intérêt</h2>
-              <div id="interests-list" class="items-list">
-                <span class="chip">Sport</span>
-                <span class="chip">Cinéma</span>
-                <span class="chip">Lecture</span>
-                <span class="chip">Voyage</span>
-                <span class="chip">Randonnées</span>
-                <span class="chip">Ski</span>
-              </div>
-            </div>
-            
-            <div id="langues">
-              <h2>Langues</h2>
-              <div id="langues-list" class="items-list">
-                <span class="chip">Français</span>
-                <span class="chip">Anglais (B2/C1)</span>
-              </div>
-            </div>
+          <div id="interests">
+            <h2>Centres d'intérêt</h2>
+            <div id="interests-list" class="items-list"></div>
+          </div>
+
+          <div id="langues">
+            <h2>Langues</h2>
+            <div id="langues-list" class="items-list"></div>
+          </div>
         </aside>
       </div>
 
